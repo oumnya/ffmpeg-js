@@ -62,6 +62,7 @@
     "dev": "vite",
     "build": "rm -r -f ./dist && tsc && vite build",
     "preview": "vite preview",
+    "start": "vite preview --host",
     "test": "npx playwright test --project=chromium",
     "prettier": "npx prettier --write ./src ./tests",
     "tarball": "npm view @diffusion-studio/ffmpeg-js dist.tarball"
